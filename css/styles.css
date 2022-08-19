@@ -8,7 +8,7 @@
     --logo-font: 'Raleway', sans-serif;
     --secondary-bcg-color: #2F303A;
     --primary-grey-color: #F5F4FA;
-
+    --opacity-white: rgba(255, 255, 255, 0.6);
 }
 
 .link {
@@ -48,6 +48,10 @@ ul, ol {
     padding-right: 15px;
 }
 
+.section {
+    padding-top: 94px;
+}
+
 .item-margin {
     margin-right: 30px;
 }
@@ -59,7 +63,6 @@ ul, ol {
     text-align: center;
     color: var(--primary-text-color);
     margin-bottom: 50px;
-    padding-top: 94px;
 }
 
 .subtitle {
@@ -133,6 +136,8 @@ ul, ol {
     padding-top: 24px;
     padding-bottom: 25px;
 }
+
+
 
 .menu-link, 
 .page-header-email,
@@ -214,7 +219,6 @@ ul, ol {
 
 .advantages-list{
     display: flex;
-    padding-top: 94px;
 }
 
 .advantages-item {
@@ -272,17 +276,34 @@ ul, ol {
 
 .page-footer {
     background-color: var(--secondary-bcg-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
-.footer-info-item > a {
+.footer-info-list {
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 231px;
+    gap: 9px;
+}
+
+.footer-info-item > .location,
+.footer-info-item > .page-footer-email,
+.footer-info-item > .page-footer-phone-number {
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--opacity-white);
 }
 
-.footer-info-item > a:hover,
-.footer-info-item > a:focus {
+.location:hover,
+.location:focus,
+.page-footer-email:hover,
+.page-footer-email:focus,
+.page-footer-phone-number:hover,
+.page-footer-phone-number:focus {
     color: var(--primary-white-color);
 }
 
