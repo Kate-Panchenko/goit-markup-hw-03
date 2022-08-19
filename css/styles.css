@@ -1,0 +1,222 @@
+:root {
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --accent-color: #2196F3;
+    --active-accent-color: #188CE8;
+    --primary-white-color: #FFFFFF;
+    --primary-black-color: #000000;
+    --logo-font: 'Raleway', sans-serif;
+    --secondary-bcg-color: #2F303A;
+    --primary-grey-color: #F5F4FA;
+
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+img {
+    display: block;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--primary-white-color);
+    letter-spacing: 0.03em;
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+.logo, 
+.logo-header, 
+.logo-footer {
+    font-family: var(--logo-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+
+.logo {
+    color: var(--accent-color);
+}
+.logo-header {
+    color: var(--primary-black-color);
+}
+
+.logo-footer {
+    color: var(--primary-white-color);
+}
+
+.menu .menu-link.current {
+    color: var(--accent-color);
+}
+
+.menu-link, 
+.page-header-email,
+.page-header-phone-number {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.menu-link {
+    color: var(--primary-text-color);
+}
+
+.page-header-email,
+.page-header-phone-number {
+    color: var(--secondary-text-color);
+}
+
+.menu-link:hover,
+.menu-link:focus,
+.page-header-email:hover,
+.page-header-email:focus,
+.page-header-phone-number:hover,
+.page-header-phone-number:focus {
+    color: var(--accent-color);
+}
+
+.hero {
+    background-color: var(--secondary-bcg-color);
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--primary-white-color);
+}
+
+.modal-open-btn {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    border: 0;
+    
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+
+.modal-open-btn:hover,
+.modal-open-btn:focus {
+    color: var(--primary-white-color);
+    background-color: var(--active-accent-color);
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    color: var(--primary-text-color);
+}
+
+.advantages-subtitle {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--primary-text-color);
+}
+
+.advantages-desc {
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--secondary-text-color);
+}
+
+.team {
+    background-color: var(--primary-grey-color);
+}
+
+.team-item {
+    background-color: var(--primary-white-color);
+}
+
+.team-member {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    color: var(--primary-text-color);
+}
+
+.team-desc {
+    font-size: 16px;
+    line-height: 1.19;
+    color: var(--secondary-text-color);
+}
+
+.page-footer {
+    background-color: var(--secondary-bcg-color);
+}
+
+.footer-info-item > a {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-info-item > a:hover,
+.footer-info-item > a:focus {
+    color: var(--primary-white-color);
+}
+
+.filter-item-btn {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.66;
+    text-align: center;
+    color: var(--primary-text-color);
+    background-color: var(--primary-grey-color);
+    cursor: pointer;
+    border: 0;
+}
+
+.filter-item-btn:hover,
+.filter-item-btn:focus {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+
+.portfolio-item-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--primary-text-color);
+}
+
+.portfolio-desc {
+    font-size: 16px;
+    line-height: 1.88;
+    color: var(--secondary-text-color);
+}
+
