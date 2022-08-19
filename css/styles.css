@@ -29,6 +29,27 @@ body {
     letter-spacing: 0.03em;
 }
 
+h1, h2, h3, h4, p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+
 .visually-hidden {
     position: absolute;
     white-space: nowrap;
@@ -42,28 +63,60 @@ body {
     margin: -1px;
 }
 
-.logo, 
-.logo-header, 
-.logo-footer {
+.logo-header,
+.logo-footer, 
+.logo-black, 
+.logo-white {
     font-family: var(--logo-font);
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
 }
 
-.logo {
+.logo-header {
+    margin-right: 93px;
+}
+
+.logo-header, .logo-footer {
     color: var(--accent-color);
 }
-.logo-header {
+.logo-black {
     color: var(--primary-black-color);
 }
 
-.logo-footer {
+.logo-white {
     color: var(--primary-white-color);
 }
 
 .menu .menu-link.current {
     color: var(--accent-color);
+}
+
+.page-header-container {
+    display: flex;
+    align-items: center;
+}
+
+.page-navigation-container {
+    display: flex;
+    align-items: center;
+}
+
+.menu-container {
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+}
+
+
+.contacts-container {
+    display: flex;
+    align-items: center;
+ }
+
+.page-header {
+    padding-top: 24px;
+    padding-bottom: 25px;
 }
 
 .menu-link, 
@@ -77,6 +130,14 @@ body {
 
 .menu-link {
     color: var(--primary-text-color);
+}
+
+.page-header-contacts {
+    margin-left: auto;
+}
+
+.page-header-email {
+    margin-right: 50px;
 }
 
 .page-header-email,
@@ -108,7 +169,6 @@ body {
 }
 
 .modal-open-btn {
-    font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
