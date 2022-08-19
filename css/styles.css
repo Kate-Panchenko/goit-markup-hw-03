@@ -108,7 +108,6 @@ ul, ol {
     column-gap: 50px;
 }
 
-
 .contacts-container {
     display: flex;
     align-items: center;
@@ -156,15 +155,23 @@ ul, ol {
 
 .hero {
     background-color: var(--secondary-bcg-color);
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: center;
 }
 
 .hero-title {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    display: flex;
+    width: 696px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    
     color: var(--primary-white-color);
 }
 
@@ -172,10 +179,10 @@ ul, ol {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
-    display: flex;
     align-items: center;
-    text-align: center;
     letter-spacing: 0.06em;
+    padding: 10px 32px;
+    border-radius: 4px;
     cursor: pointer;
     border: 0;
     
