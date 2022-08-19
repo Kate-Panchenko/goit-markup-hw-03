@@ -52,8 +52,14 @@ ul, ol {
     margin-right: 30px;
 }
 
-.title {
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    color: var(--primary-text-color);
     margin-bottom: 50px;
+    padding-top: 94px;
 }
 
 .subtitle {
@@ -206,18 +212,9 @@ ul, ol {
     background-color: var(--active-accent-color);
 }
 
-.section-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-    color: var(--primary-text-color);
-}
-
-.advantages-list-container {
+.advantages-list{
     display: flex;
     padding-top: 94px;
-    padding-bottom: 94px;
 }
 
 .advantages-item {
@@ -248,20 +245,28 @@ ul, ol {
     background-color: var(--primary-grey-color);
 }
 
+.team-list {
+    display: flex;
+    padding-bottom: 94px;
+}
+
 .team-item {
     background-color: var(--primary-white-color);
+    text-align: center;
 }
 
 .team-member {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
+    margin-top: 30px;
     color: var(--primary-text-color);
 }
 
 .team-desc {
     font-size: 16px;
     line-height: 1.19;
+    padding-bottom: 30px;
     color: var(--secondary-text-color);
 }
 
