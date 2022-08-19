@@ -48,7 +48,17 @@ ul, ol {
     padding-right: 15px;
 }
 
+.item-margin {
+    margin-right: 30px;
+}
 
+.title {
+    margin-bottom: 50px;
+}
+
+.subtitle {
+    margin-bottom: 10px;
+}
 
 .visually-hidden {
     position: absolute;
@@ -204,6 +214,16 @@ ul, ol {
     color: var(--primary-text-color);
 }
 
+.advantages-list-container {
+    display: flex;
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.advantages-item {
+    flex-basis: 25%;
+}
+
 .advantages-subtitle {
     font-weight: 700;
     font-size: 14px;
@@ -216,6 +236,12 @@ ul, ol {
     font-size: 14px;
     line-height: 1.71;
     color: var(--secondary-text-color);
+}
+
+.gallery-list {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 94px;
 }
 
 .team {
