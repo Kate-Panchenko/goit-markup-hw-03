@@ -277,12 +277,12 @@ ul, ol {
     padding-bottom: 60px;
 }
 
-.footer-info-list {
-    display: flex;
-    flex-direction: column;
+.footer-info {
     margin-top: 20px;
-    width: 231px;
-    gap: 9px;
+}
+
+.footer-info-item:not(:last-child) {
+    margin-bottom: 9px;
 }
 
 .location,
@@ -337,7 +337,7 @@ ul, ol {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-    padding-top: 50px;
+    margin-top: 50px;
 }
 
 .portfolio-item {
