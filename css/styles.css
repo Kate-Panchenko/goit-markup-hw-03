@@ -109,12 +109,9 @@ ul, ol {
     color: var(--accent-color);
 }
 
-.page-header-container {
-    display: flex;
-    align-items: center;
-}
-
-.page-navigation-container {
+.page-header-container,
+.page-navigation-container,
+.contacts-container {
     display: flex;
     align-items: center;
 }
@@ -124,11 +121,6 @@ ul, ol {
     align-items: center;
     column-gap: 50px;
 }
-
-.contacts-container {
-    display: flex;
-    align-items: center;
- }
 
 .page-header {
     padding-top: 24px;
@@ -221,7 +213,7 @@ ul, ol {
 }
 
 .advantages-item {
-    flex-basis: 25%;
+    flex-basis: calc((100% - 90px) / 4);
 }
 
 .advantages-subtitle {
@@ -288,7 +280,6 @@ ul, ol {
 .footer-info-list {
     display: flex;
     flex-direction: column;
-    margin-right: auto;
     margin-top: 20px;
     width: 231px;
     gap: 9px;
