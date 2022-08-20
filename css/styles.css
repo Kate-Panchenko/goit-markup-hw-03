@@ -294,9 +294,9 @@ ul, ol {
     gap: 9px;
 }
 
-.footer-info-item > .location,
-.footer-info-item > .page-footer-email,
-.footer-info-item > .page-footer-phone-number {
+.location,
+.page-footer-email,
+.page-footer-phone-number {
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
