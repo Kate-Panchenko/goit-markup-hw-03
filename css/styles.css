@@ -145,7 +145,7 @@ ul, ol {
     margin-left: auto;
 }
 
-.page-header-email {
+.page-header-contacts-item:not(:last-child) {
     margin-right: 50px;
 }
 
@@ -256,18 +256,21 @@ ul, ol {
     border-radius: 4px;
 }
 
+.team-item-info {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 .team-member {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
-    margin-top: 30px;
     color: var(--primary-text-color);
 }
 
 .team-desc {
     font-size: 16px;
     line-height: 1.19;
-    padding-bottom: 30px;
     color: var(--secondary-text-color);
 }
 
